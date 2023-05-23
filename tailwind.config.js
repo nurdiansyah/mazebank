@@ -16,6 +16,9 @@ export default {
       animation: {
         marquee: 'marquee 25s linear infinite',
       },
+      boxShadow: {
+        'right-bottom': '10px 10px 10px 0 rgba(0, 0, 0, 0.25)', // Adjust the values as needed
+      },
       keyframes: {
         marquee: {
           '0%': { transform: 'translateX(0%)' },

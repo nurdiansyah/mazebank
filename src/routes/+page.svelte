@@ -74,11 +74,13 @@
 
 		<!-- Informasi Antrian -->
 		<div class="table w-full p-4">
-			<div class="table-cell w-2/3" />
+			<div class="table-cell w-2/3"> 
+				<p>Media</p>
+			</div>
 
 			<div class="p-2 ml-2">
 				<div
-					class="bg-mainColor2 max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl"
+					class="bg-mainColor2 max-w-md mx-auto bg-white rounded-xl overflow-hidden md:max-w-2xl shadow-right-bottom"
 				>
 					<div class="float-left content flex p-8">
 						<div class="table w-full">
@@ -101,7 +103,7 @@
 
 			<div class="p-2 ml-2">
 				<div
-					class="bg-mainColor2 max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl"
+					class="bg-mainColor2 max-w-md mx-auto bg-white rounded-xl overflow-hidden md:max-w-2xl shadow-right-bottom"
 				>
 					<div class="float-left content flex p-8">
 						<div class="table w-full">
@@ -124,7 +126,7 @@
 
 			<div class="p-2 ml-2">
 				<div
-					class="bg-mainColor2 max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl"
+					class="bg-mainColor2 max-w-md mx-auto bg-white rounded-xl overflow-hidden md:max-w-2xl shadow-right-bottom"
 				>
 					<div class="float-left content flex p-8">
 						<div class="table w-full">
