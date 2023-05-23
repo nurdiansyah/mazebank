@@ -14,14 +14,28 @@
 				</div>
 			</div>
 
-			<div class="float-right content flex py-2">
+			<div class="float-right content flex items-center">
 				<div class="item-body px-4 my-auto">
-					<span
-						class="text-3xl md:text-5xl no-underline text-grey-darkest hover:text-blue-dark font-poppins md:font-semibold"
+					<!-- <span
+						class="text-3xl text-right md:text-5xl no-underline text-grey-darkest hover:text-blue-dark font-poppins md:font-semibold"
 						>23:59:00</span
 					>
 					<br />
-					<span class="text-2xl md:text-2xl text-grey-dark">23 Juli 2023</span>
+					<span class="text-2xl text-right md:text-2xl text-grey-dark">23 Juli 2023</span> -->
+					<!-- <p class="text-right ...">Lorem ipsum dolor sit amet ...</p> -->
+					<!-- <p class="text-left ...">Lorem ipsum dolor sit amet ...</p> -->
+					<div class="grid grid-rows-3 grid-flow-col gap-4">
+						<div
+							class="col-span-2 text-3xl text-right md:text-5xl no-underline font-poppins md:font-semibold"
+						>
+							23:59:00
+						</div>
+						<div
+							class="row-span-2 col-span-2 text-2xl text-right md:text-2xl no-underline font-poppins"
+						>
+							23 Juli 2023
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -30,7 +44,7 @@
 	<!-- Running Text Berita -->
 	<div class="bg-mainColor2 w-full flex flex-col space-y-4 md:flex-row md:space-x-4 md:space-y-0">
 		<div class="relative flex overflow-x-hidden">
-			<div class="py-2 animate-marquee whitespace-nowrap text-mainColor1 font-poppins md:font-base">
+			<div class="py-2 animate-marquee whitespace-nowrap text-mainColor1 font-inter md:font-base">
 				<span class="text-2xl mx-2"
 					>Sarapan Gratis! Cukup bayar dengan Maze Point. Download Maze Bank App dan upgrade ke Maze
 					Prime dapatkan 25 ribu point</span
@@ -56,7 +70,7 @@
 	</div>
 
 	<div
-		class="bg-mainColor3 w-full h-auto flex flex-col space-y-4 md:flex-row md:space-x-4 md:space-y-0"
+		class="bg-mainColor3 w-full h-full flex flex-col space-y-4 md:flex-row md:space-x-4 md:space-y-0"
 	>
 		<!-- Informasi Media -->
 		<!-- <h1 class="text-2xl md:text-4xl">Picture / Video Layout Frame</h1> -->
@@ -73,9 +87,17 @@
 		</main> -->
 
 		<!-- Informasi Antrian -->
-		<div class="table w-full p-4">
-			<div class="table-cell w-2/3"> 
-				<p>Media</p>
+		<div class="table w-full h-max p-4">
+			<div class="table-cell w-2/3">
+				<!-- <p>Media</p> -->
+				<iframe
+					class="w-full h-full rounded-lg shadow-right-bottom"
+					src="https://www.youtube.com/embed/KMPnVroI2vE?autoplay=0&loop=1"
+					title="YouTube video player"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					allowfullscreen
+				/>
 			</div>
 
 			<div class="p-2 ml-2">
