@@ -1,16 +1,10 @@
-<div class="min-h-screen flex flex-col">
-	<header class="bg-mainColor2 py-4">
-		<!-- Header content -->
-        <h1>dasfase</h1>
-	</header>
-
-	<main class="flex-grow">
-		<!-- Main content -->
-        <p>sandoqwionda</p>
-	</main>
-
-	<footer class="bg-mainColor2 py-4">
-		<!-- Footer content -->
-        <p>sandklasnd</p>
-	</footer>
+<div class="grid grid-row-2">
+	<div class=" bg-mainColor2">
+		<!-- Content for the first row (2/3 width) -->
+		<h1>biduawbnoa</h1>
+	</div>
+	<div class=" bg-mainColor4">
+		<!-- Content for the second row (1/3 width) -->
+		<h1>bd3wuiqh</h1>
+	</div>
 </div>
