@@ -28,5 +28,10 @@
 		"vite": "^4.3.0",
 		"vitest": "^0.25.3"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"flag-icons": "^6.7.0",
+		"flowbite": "^1.7.0",
+		"tw-elements": "^1.0.0-beta2"
+	}
 }

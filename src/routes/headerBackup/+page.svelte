@@ -6,7 +6,7 @@
 	<header class="bg-mainColor1 mx-11 py-7">
 		<div class="flex flex-col items-center md:flex-row">
 			<div class="w-full md:w-1/2 flex items-center justify-start">
-				<img src="Logo_Maze-Bank.png" alt="Logo" class="h-28" />
+				<img src="/asset/asset_header/Logo_Maze-Bank.png" alt="Logo" class="h-28" />
 				<div class="item-body px-4 my-auto">
 					<span
 						class="text-3xl md:text-5xl no-underline text-grey-darkest hover:text-blue-dark font-poppins md:font-semibold"

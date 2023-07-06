@@ -11,26 +11,27 @@
 				<img src="/asset/asset_header/Logo_Maze-Bank.png" alt="Logo" class="h-28" />
 				<div class="item-body px-4 my-auto">
 					<span
-						class="text-3xl md:text-5xl no-underline text-grey-darkest hover:text-blue-dark font-poppins md:font-semibold"
+						class="text-3xl md:text-5xl no-underline font-poppins md:font-semibold"
 						>Maze Bank</span
 					>
 					<br />
-					<span class="text-2xl md:text-2xl text-right text-grey-dark">Cabang East Los Santos</span>
+					<span class="text-2xl md:text-2xl text-right">Cabang East Los Santos</span>
 				</div>
 			</div>
 
 			<div class="w-full md:w-1/2 flex items-center justify-end">
 				<div class="item-body px-4 my-auto text-right">
 					<span
-						class="text-3xl md:text-5xl no-underline text-grey-darkest hover:text-blue-dark font-poppins md:font-semibold"
+						class="text-3xl md:text-5xl no-underline font-poppins md:font-semibold"
 						>{$time}</span
 					>
 					<br />
-					<span class="text-2xl md:text-2xl text-grey-dark">{$date}</span>
+					<span class="text-2xl md:text-2xl">{$date}</span>
 				</div>
 			</div>
 		</div>
 	</header>
+
 
 	<!-- Side Content -->
 	<!-- Running Text -->
