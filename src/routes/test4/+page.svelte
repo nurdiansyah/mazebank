@@ -81,26 +81,8 @@
 		<div class="p-4">
 			<!-- Loket -->
 			<div class="card">
-				<div class="card-body bg-mainColor2 flex rounded-xl shadow-right-bottom px-10 py-9">
-					<div class="w-1/2">
-						<p
-							class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-4xl font-poppins font-bold text-mainColor1 uppercase tracking-wide"
-						>
-							Loket 1
-						</p>
-						<p
-							class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl font-poppins font-regular text-mainColor1 uppercase tracking-wide"
-						>
-							Pasien BPJS
-						</p>
-					</div>
-					<div class="w-1/2 text-right">
-						<div
-							class=" text-xs sm:text-sm md:text-lg lg:text-xl xl:text-4xl font-poppins font-bold text-mainColor4 uppercase tracking-wide"
-						>
-							B101
-						</div>
-					</div>
+				<div class="card-body bg-mainColor2 flex rounded-xl shadow-right-bottom p-screen">
+					
 				</div>
 			</div>
 		</div>
@@ -140,35 +122,35 @@
 						</div>
 						<div class="row-span-2 flex justify-center p-4">
 							<p
-								class="text-3xl md:text-3xl no-underline text-grey-darkest hover:text-blue-dark font-poppins md:font-semibold align-middle"
+								class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl font-poppins font-bold text-mainColor1 uppercase tracking-wide align-middle"
 							>
 								USD
 							</p>
 						</div>
 						<div class=" flex justify-center p-4">
 							<p
-								class="text-3xl md:text-3xl no-underline text-grey-darkest hover:text-blue-dark font-poppins md:font-semibold"
+								class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl font-poppins font-bold text-mainColor1 uppercase tracking-wide"
 							>
 								JUAL
 							</p>
 						</div>
 						<div class="flex justify-center p-4">
 							<p
-								class="text-3xl md:text-3xl no-underline text-grey-darkest hover:text-blue-dark font-poppins md:font-semibold"
+								class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl font-poppins font-bold text-mainColor1 uppercase tracking-wide"
 							>
 								BELI
 							</p>
 						</div>
 						<div class="flex justify-center p-4">
 							<p
-								class="text-3xl md:text-3xl no-underline text-grey-darkest hover:text-blue-dark font-poppins md:font-semibold"
+								class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl font-poppins font-bold text-mainColor1 uppercase tracking-wide"
 							>
-                            13750
+								13750
 							</p>
 						</div>
 						<div class="flex justify-center p-4">
 							<p
-								class="text-3xl md:text-3xl no-underline text-grey-darkest hover:text-blue-dark font-poppins md:font-semibold"
+								class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl font-poppins font-bold text-mainColor1 uppercase tracking-wide"
 							>
 								13650
 							</p>

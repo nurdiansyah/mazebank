@@ -6,10 +6,10 @@ export default {
 			transparent: 'transparent',
 			current: 'currentColor',
 			mainColor1: '#FFFFFF',
-			mainColor2: '#FD7714',
-			mainColor3: '#00529C',
+			mainColor2: '#FF7823',
+			mainColor3: '#005AAF',
 			mainColor4: '#FAFF00',
-      mainColor5: '#81B0DE'
+			mainColor5: '#81B0DE'
 		},
 		extend: {
 			animation: {
