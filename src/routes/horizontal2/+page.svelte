@@ -10,8 +10,7 @@
 			<div class="w-full md:w-1/2 flex items-center justify-start">
 				<img src="/asset/asset_header/Logo_Maze-Bank.png" alt="Logo" class="h-28" />
 				<div class="item-body px-4 my-auto">
-					<span
-						class="text-3xl md:text-5xl no-underline font-poppins md:font-semibold"
+					<span class="text-3xl md:text-5xl no-underline font-poppins md:font-semibold"
 						>Maze Bank</span
 					>
 					<br />
@@ -21,8 +20,7 @@
 
 			<div class="w-full md:w-1/2 flex items-center justify-end">
 				<div class="item-body px-4 my-auto text-right">
-					<span
-						class="text-3xl md:text-5xl no-underline font-poppins md:font-semibold"
+					<span class="text-3xl md:text-5xl no-underline font-poppins md:font-semibold"
 						>{$time}</span
 					>
 					<br />
@@ -74,26 +72,51 @@
 				allowfullscreen
 			/>
 		</div>
-		<div class="h-1/6 ">
+		<div class="h-1/6">
 			<div class="grid grid-cols-4 gap-4">
 				<!-- Loket -->
 				<div class="card my-3">
 					<div class="card-body bg-mainColor2 flex rounded-xl shadow-right-bottom px-10 py-4">
 						<div class="w-1/2">
 							<p
-								class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl font-poppins font-bold text-mainColor1 uppercase tracking-wide"
+								class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl font-poppins font-bold text-mainColor1 drop-shadow-md uppercase tracking-wide"
 							>
 								Loket 1
 							</p>
 							<p
-								class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl font-poppins font-regular text-mainColor1 uppercase tracking-wide"
+								class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl font-poppins font-regular text-mainColor1 drop-shadow-md uppercase tracking-wide"
 							>
-								Pasien BPJS
+								ASSISTANT
 							</p>
 						</div>
 						<div class="w-1/2 text-right">
 							<div
-								class=" text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl font-poppins font-bold text-mainColor4 uppercase tracking-wide"
+								class=" text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl font-poppins font-bold text-mainColor4 drop-shadow-md uppercase tracking-wide"
+							>
+								A101
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Loket -->
+				<div class="card my-3">
+					<div class="card-body bg-mainColor2 flex rounded-xl shadow-right-bottom px-10 py-4">
+						<div class="w-1/2">
+							<p
+								class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl font-poppins font-bold text-mainColor1 drop-shadow-md uppercase tracking-wide"
+							>
+								Loket 2
+							</p>
+							<p
+								class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl font-poppins font-regular text-mainColor1 drop-shadow-md uppercase tracking-wide"
+							>
+								TELLER
+							</p>
+						</div>
+						<div class="w-1/2 text-right">
+							<div
+								class=" text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl font-poppins font-bold text-mainColor4 drop-shadow-md uppercase tracking-wide"
 							>
 								B101
 							</div>
@@ -106,19 +129,19 @@
 					<div class="card-body bg-mainColor2 flex rounded-xl shadow-right-bottom px-10 py-4">
 						<div class="w-1/2">
 							<p
-								class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl font-poppins font-bold text-mainColor1 uppercase tracking-wide"
+								class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl font-poppins font-bold text-mainColor1 drop-shadow-md uppercase tracking-wide"
 							>
-								Loket 2
+								Loket 3
 							</p>
 							<p
-								class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl font-poppins font-regular text-mainColor1 uppercase tracking-wide"
+								class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl font-poppins font-regular text-mainColor1 drop-shadow-md uppercase tracking-wide"
 							>
-								Pasien BPJS
+								TELLER
 							</p>
 						</div>
 						<div class="w-1/2 text-right">
 							<div
-								class=" text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl font-poppins font-bold text-mainColor4 uppercase tracking-wide"
+								class=" text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl font-poppins font-bold text-mainColor4 drop-shadow-md uppercase tracking-wide"
 							>
 								B102
 							</div>
@@ -131,46 +154,21 @@
 					<div class="card-body bg-mainColor2 flex rounded-xl shadow-right-bottom px-10 py-4">
 						<div class="w-1/2">
 							<p
-								class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl font-poppins font-bold text-mainColor1 uppercase tracking-wide"
-							>
-								Loket 3
-							</p>
-							<p
-								class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl font-poppins font-regular text-mainColor1 uppercase tracking-wide"
-							>
-								Pasien BPJS
-							</p>
-						</div>
-						<div class="w-1/2 text-right">
-							<div
-								class=" text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl font-poppins font-bold text-mainColor4 uppercase tracking-wide"
-							>
-								B103
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<!-- Loket -->
-				<div class="card my-3">
-					<div class="card-body bg-mainColor2 flex rounded-xl shadow-right-bottom px-10 py-4">
-						<div class="w-1/2">
-							<p
-								class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl font-poppins font-bold text-mainColor1 uppercase tracking-wide"
+								class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl font-poppins font-bold text-mainColor1 drop-shadow-md uppercase tracking-wide"
 							>
 								Loket 4
 							</p>
 							<p
-								class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl font-poppins font-regular text-mainColor1 uppercase tracking-wide"
+								class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl font-poppins font-regular text-mainColor1 drop-shadow-md uppercase tracking-wide"
 							>
-								Pasien Umum
+								TELLER
 							</p>
 						</div>
 						<div class="w-1/2 text-right">
 							<div
-								class=" text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl font-poppins font-bold text-mainColor4 uppercase tracking-wide"
+								class=" text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl font-poppins font-bold text-mainColor4 drop-shadow-md uppercase tracking-wide"
 							>
-								A101
+								B103
 							</div>
 						</div>
 					</div>

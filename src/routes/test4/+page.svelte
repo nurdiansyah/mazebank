@@ -61,7 +61,7 @@
 
 	<!-- Main Content -->
 	<div
-		class="bg-mainColor3 h-screen grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 text-mainColor1"
+		class="bg-mainColor3 h-screen grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 text-mainColor1 p-2"
 	>
 		<div class="row-span-2 col-span-2 p-4">
 			<div class="w-full h-full rounded-lg shadow-right-bottom">
@@ -80,107 +80,123 @@
 		</div>
 		<div class="p-4">
 			<!-- Loket -->
-			<div class="card">
-				<div class="card-body bg-mainColor2 flex rounded-xl shadow-right-bottom p-screen">
-					
+			<div
+				class="bg-mainColor2 col-span-2 h-full flex items-center rounded-xl shadow-right-bottom px-6 py-4"
+			>
+				<div class="w-1/2">
+					<p
+						class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-4xl font-poppins font-bold text-mainColor1 uppercase tracking-wide"
+					>
+						Loket 1
+					</p>
+					<p
+						class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl font-poppins font-regular text-mainColor1 uppercase tracking-wide"
+					>
+						ASSISTANT
+					</p>
+				</div>
+				<div class="w-1/2 text-right">
+					<div
+						class=" text-xs sm:text-sm md:text-lg lg:text-xl xl:text-4xl font-poppins font-bold text-mainColor4 uppercase tracking-wide"
+					>
+						A101
+					</div>
 				</div>
 			</div>
 		</div>
 		<div class="p-4">
 			<!-- Loket -->
-			<div class="card">
-				<div class="card-body bg-mainColor2 flex rounded-xl shadow-right-bottom px-10 py-9">
-					<div class="w-1/2">
-						<p
-							class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-4xl font-poppins font-bold text-mainColor1 uppercase tracking-wide"
-						>
-							Loket 2
-						</p>
-						<p
-							class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl font-poppins font-regular text-mainColor1 uppercase tracking-wide"
-						>
-							Pasien BPJS
-						</p>
-					</div>
-					<div class="w-1/2 text-right">
-						<div
-							class=" text-xs sm:text-sm md:text-lg lg:text-xl xl:text-4xl font-poppins font-bold text-mainColor4 uppercase tracking-wide"
-						>
-							B101
-						</div>
+			<div
+				class="bg-mainColor2 col-span-2 h-full flex items-center rounded-xl shadow-right-bottom px-6 py-4"
+			>
+				<div class="w-1/2">
+					<p
+						class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-4xl font-poppins font-bold text-mainColor1 uppercase tracking-wide"
+					>
+						Loket 2
+					</p>
+					<p
+						class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl font-poppins font-regular text-mainColor1 uppercase tracking-wide"
+					>
+						TELLER
+					</p>
+				</div>
+				<div class="w-1/2 text-right">
+					<div
+						class=" text-xs sm:text-sm md:text-lg lg:text-xl xl:text-4xl font-poppins font-bold text-mainColor4 uppercase tracking-wide"
+					>
+						B101
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="col-span-2 p-4">
-			<!-- Kurs -->
-			<div class="card">
-				<div class="card-body bg-mainColor2 flex rounded-xl shadow-right-bottom px-10 py-9">
-					<div class="bg-mainColor2 w-full h-full grid grid-cols-4 grid-rows-2 gap-4">
-						<div class="row-span-2 flex justify-center p-4">
-							<img src="/asset/asset_main_content/Flag_USA.svg" alt="Logo" class="h-28" />
-						</div>
-						<div class="row-span-2 flex justify-center p-4">
-							<p
-								class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl font-poppins font-bold text-mainColor1 uppercase tracking-wide align-middle"
-							>
-								USD
-							</p>
-						</div>
-						<div class=" flex justify-center p-4">
-							<p
-								class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl font-poppins font-bold text-mainColor1 uppercase tracking-wide"
-							>
-								JUAL
-							</p>
-						</div>
-						<div class="flex justify-center p-4">
-							<p
-								class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl font-poppins font-bold text-mainColor1 uppercase tracking-wide"
-							>
-								BELI
-							</p>
-						</div>
-						<div class="flex justify-center p-4">
-							<p
-								class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl font-poppins font-bold text-mainColor1 uppercase tracking-wide"
-							>
-								13750
-							</p>
-						</div>
-						<div class="flex justify-center p-4">
-							<p
-								class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl font-poppins font-bold text-mainColor1 uppercase tracking-wide"
-							>
-								13650
-							</p>
-						</div>
+			<!-- Kurs Info -->
+			<div class="bg-mainColor2 col-span-2 h-full flex rounded-xl shadow-right-bottom">
+				<div class=" w-full h-full grid grid-rows-2 grid-cols-3 gap-4">
+					<div class="flex justify-center">
+						<img src="/asset/asset_main_content/Flag_USA.svg" alt="Logo" class="w-28" />
+					</div>
+					<div class=" flex justify-center items-center">
+						<p
+							class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl no-underline font-poppins md:font-semibold text-mainColor1"
+						>
+							JUAL
+						</p>
+					</div>
+					<div class="flex justify-center items-center">
+						<p
+							class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl no-underline font-poppins md:font-semibold text-mainColor1"
+						>
+							BELI
+						</p>
+					</div>
+					<div class="flex justify-center">
+						<p
+							class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl no-underline font-poppins md:font-semibold flex items-center text-mainColor1"
+						>
+							USD
+						</p>
+					</div>
+					<div class="flex justify-center items-center">
+						<p
+							class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl no-underline font-poppins md:font-semibold text-mainColor1"
+						>
+							13750
+						</p>
+					</div>
+					<div class="flex justify-center items-center">
+						<p
+							class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl no-underline font-poppins md:font-semibold text-mainColor1"
+						>
+							13650
+						</p>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="p-4">
 			<!-- Loket -->
-			<div class="card">
-				<div class="card-body bg-mainColor2 flex rounded-xl shadow-right-bottom px-10 py-9">
-					<div class="w-1/2">
-						<p
-							class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-4xl font-poppins font-bold text-mainColor1 uppercase tracking-wide"
-						>
-							Loket 3
-						</p>
-						<p
-							class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl font-poppins font-regular text-mainColor1 uppercase tracking-wide"
-						>
-							Pasien BPJS
-						</p>
-					</div>
-					<div class="w-1/2 text-right">
-						<div
-							class=" text-xs sm:text-sm md:text-lg lg:text-xl xl:text-4xl font-poppins font-bold text-mainColor4 uppercase tracking-wide"
-						>
-							B101
-						</div>
+			<div
+				class="bg-mainColor2 col-span-2 h-full flex items-center rounded-xl shadow-right-bottom px-6 py-4"
+			>
+				<div class="w-1/2">
+					<p
+						class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-4xl font-poppins font-bold text-mainColor1 uppercase tracking-wide"
+					>
+						Loket 3
+					</p>
+					<p
+						class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl font-poppins font-regular text-mainColor1 uppercase tracking-wide"
+					>
+						TELLER
+					</p>
+				</div>
+				<div class="w-1/2 text-right">
+					<div
+						class=" text-xs sm:text-sm md:text-lg lg:text-xl xl:text-4xl font-poppins font-bold text-mainColor4 uppercase tracking-wide"
+					>
+						B102
 					</div>
 				</div>
 			</div>

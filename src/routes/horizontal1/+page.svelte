@@ -84,94 +84,19 @@
 							<div class="card-body bg-mainColor2 flex rounded-xl shadow-right-bottom px-10 py-9">
 								<div class="w-1/2">
 									<p
-										class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-4xl font-poppins font-bold text-mainColor1 uppercase tracking-wide"
+										class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-4xl font-poppins font-bold text-mainColor1 drop-shadow-md uppercase tracking-wide"
 									>
 										Loket 1
 									</p>
 									<p
-										class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl font-poppins font-regular text-mainColor1 uppercase tracking-wide"
+										class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl font-poppins font-regular text-mainColor1 drop-shadow-md uppercase tracking-wide"
 									>
-										Pasien BPJS
+										ASSISTANT
 									</p>
 								</div>
 								<div class="w-1/2 text-right">
 									<div
-										class=" text-xs sm:text-sm md:text-lg lg:text-xl xl:text-4xl font-poppins font-bold text-mainColor4 uppercase tracking-wide"
-									>
-										B101
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<!-- Loket -->
-						<div class="card my-3">
-							<div class="card-body bg-mainColor2 flex rounded-xl shadow-right-bottom px-10 py-9">
-								<div class="w-1/2">
-									<p
-										class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-4xl font-poppins font-bold text-mainColor1 uppercase tracking-wide"
-									>
-										Loket 2
-									</p>
-									<p
-										class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl font-poppins font-regular text-mainColor1 uppercase tracking-wide"
-									>
-										Pasien BPJS
-									</p>
-								</div>
-								<div class="w-1/2 text-right">
-									<div
-										class=" text-xs sm:text-sm md:text-lg lg:text-xl xl:text-4xl font-poppins font-bold text-mainColor4 uppercase tracking-wide"
-									>
-										B102
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<!-- Loket -->
-						<div class="card my-3">
-							<div class="card-body bg-mainColor2 flex rounded-xl shadow-right-bottom px-10 py-9">
-								<div class="w-1/2">
-									<p
-										class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-4xl font-poppins font-bold text-mainColor1 uppercase tracking-wide"
-									>
-										Loket 3
-									</p>
-									<p
-										class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl font-poppins font-regular text-mainColor1 uppercase tracking-wide"
-									>
-										Pasien BPJS
-									</p>
-								</div>
-								<div class="w-1/2 text-right">
-									<div
-										class=" text-xs sm:text-sm md:text-lg lg:text-xl xl:text-4xl font-poppins font-bold text-mainColor4 uppercase tracking-wide"
-									>
-										B103
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<!-- Loket -->
-						<div class="card my-3">
-							<div class="card-body bg-mainColor2 flex rounded-xl shadow-right-bottom px-10 py-9">
-								<div class="w-1/2">
-									<p
-										class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-4xl font-poppins font-bold text-mainColor1 uppercase tracking-wide"
-									>
-										Loket 4
-									</p>
-									<p
-										class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl font-poppins font-regular text-mainColor1 uppercase tracking-wide"
-									>
-										Pasien Umum
-									</p>
-								</div>
-								<div class="w-1/2 text-right">
-									<div
-										class=" text-xs sm:text-sm md:text-lg lg:text-xl xl:text-4xl font-poppins font-bold text-mainColor4 uppercase tracking-wide"
+										class=" text-xs sm:text-sm md:text-lg lg:text-xl xl:text-4xl font-poppins font-bold text-mainColor4 drop-shadow-md uppercase tracking-wide"
 									>
 										A101
 									</div>
@@ -184,21 +109,96 @@
 							<div class="card-body bg-mainColor2 flex rounded-xl shadow-right-bottom px-10 py-9">
 								<div class="w-1/2">
 									<p
-										class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-4xl font-poppins font-bold text-mainColor1 uppercase tracking-wide"
+										class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-4xl font-poppins font-bold text-mainColor1 drop-shadow-md uppercase tracking-wide"
 									>
-										Loket 5
+										Loket 2
 									</p>
 									<p
-										class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl font-poppins font-regular text-mainColor1 uppercase tracking-wide"
+										class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl font-poppins font-regular text-mainColor1 drop-shadow-md uppercase tracking-wide"
 									>
-										Pasien Umum
+										ASSISTANT
 									</p>
 								</div>
 								<div class="w-1/2 text-right">
 									<div
-										class=" text-xs sm:text-sm md:text-lg lg:text-xl xl:text-4xl font-poppins font-bold text-mainColor4 uppercase tracking-wide"
+										class=" text-xs sm:text-sm md:text-lg lg:text-xl xl:text-4xl font-poppins font-bold text-mainColor4 drop-shadow-md uppercase tracking-wide"
 									>
 										A102
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Loket -->
+						<div class="card my-3">
+							<div class="card-body bg-mainColor2 flex rounded-xl shadow-right-bottom px-10 py-9">
+								<div class="w-1/2">
+									<p
+										class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-4xl font-poppins font-bold text-mainColor1 drop-shadow-md uppercase tracking-wide"
+									>
+										Loket 3
+									</p>
+									<p
+										class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl font-poppins font-regular text-mainColor1 drop-shadow-md uppercase tracking-wide"
+									>
+										TELLER
+									</p>
+								</div>
+								<div class="w-1/2 text-right">
+									<div
+										class=" text-xs sm:text-sm md:text-lg lg:text-xl xl:text-4xl font-poppins font-bold text-mainColor4 drop-shadow-md uppercase tracking-wide"
+									>
+										B101
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Loket -->
+						<div class="card my-3">
+							<div class="card-body bg-mainColor2 flex rounded-xl shadow-right-bottom px-10 py-9">
+								<div class="w-1/2">
+									<p
+										class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-4xl font-poppins font-bold text-mainColor1 drop-shadow-md uppercase tracking-wide"
+									>
+										Loket 4
+									</p>
+									<p
+										class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl font-poppins font-regular text-mainColor1 drop-shadow-md uppercase tracking-wide"
+									>
+										TELLER
+									</p>
+								</div>
+								<div class="w-1/2 text-right">
+									<div
+										class=" text-xs sm:text-sm md:text-lg lg:text-xl xl:text-4xl font-poppins font-bold text-mainColor4 drop-shadow-md uppercase tracking-wide"
+									>
+										B102
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Loket -->
+						<div class="card my-3">
+							<div class="card-body bg-mainColor2 flex rounded-xl shadow-right-bottom px-10 py-9">
+								<div class="w-1/2">
+									<p
+										class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-4xl font-poppins font-bold text-mainColor1 drop-shadow-md uppercase tracking-wide"
+									>
+										Loket 5
+									</p>
+									<p
+										class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl font-poppins font-regular text-mainColor1 drop-shadow-md uppercase tracking-wide"
+									>
+										TELLER
+									</p>
+								</div>
+								<div class="w-1/2 text-right">
+									<div
+										class=" text-xs sm:text-sm md:text-lg lg:text-xl xl:text-4xl font-poppins font-bold text-mainColor4 drop-shadow-md uppercase tracking-wide"
+									>
+										B103
 									</div>
 								</div>
 							</div>

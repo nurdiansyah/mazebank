@@ -4,7 +4,7 @@
 
 <div class="flex overflow-x-hidden">
 	<div class="max-w-full">
-		<header class="bg-mainColor4 p-7">
+		<header class="p-7">
 			<div class="flex flex-col items-center md:flex-row">
 				<div class="w-full md:w-1/2 flex items-center justify-start">
 					<img src="/asset/asset_header/Logo_Maze-Bank.png" alt="Logo" class="h-12" />
@@ -66,7 +66,7 @@
 				<!-- Test Gambar -->
 				<img
 					class="w-full h-full rounded-lg shadow-right-bottom"
-					src="/asset/asset_main_content/picture-test-3.png"
+					src="/asset/asset_main_content/vertical-poster-test-1.svg"
 					alt=""
 				/>
 
@@ -82,44 +82,42 @@
 			<div class="h-1/3 my-7">
 				<div class="grid grid-rows-2 grid-cols-3 gap-4">
 					<!-- Kurs Info -->
-					<div
-						class="bg-mainColor2 col-span-2 h-full flex rounded-xl shadow-right-bottom px-6 py-4"
-					>
-						<div class=" w-full h-full grid grid-cols-4 grid-rows-2 gap-4">
-							<div class="row-span-2 flex justify-center">
+					<div class="bg-mainColor2 col-span-2 h-full flex rounded-xl shadow-right-bottom py-6">
+						<div class=" w-full h-full grid grid-rows-2 grid-cols-3 gap-4">
+							<div class="flex justify-center items-center">
 								<img src="/asset/asset_main_content/Flag_USA.svg" alt="Logo" class="w-28" />
-							</div>
-							<div class="row-span-2 flex justify-center">
-								<p
-									class="text-3xl md:text-2xl no-underline font-poppins md:font-semibold flex items-center text-mainColor1"
-								>
-									USD
-								</p>
 							</div>
 							<div class=" flex justify-center items-center">
 								<p
-									class="text-3xl md:text-2xl no-underline font-poppins md:font-semibold text-mainColor1"
+									class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl no-underline font-poppins md:font-semibold text-mainColor1 drop-shadow-md"
 								>
 									JUAL
 								</p>
 							</div>
 							<div class="flex justify-center items-center">
 								<p
-									class="text-3xl md:text-2xl no-underline font-poppins md:font-semibold text-mainColor1"
+									class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl no-underline font-poppins md:font-semibold text-mainColor1 drop-shadow-md"
 								>
 									BELI
 								</p>
 							</div>
+							<div class="flex justify-center">
+								<p
+									class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl no-underline font-poppins md:font-semibold flex items-center text-mainColor1 drop-shadow-md"
+								>
+									USD
+								</p>
+							</div>
 							<div class="flex justify-center items-center">
 								<p
-									class="text-3xl md:text-2xl no-underline font-poppins md:font-semibold text-mainColor1"
+									class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl no-underline font-poppins md:font-semibold text-mainColor1 drop-shadow-md"
 								>
 									13750
 								</p>
 							</div>
 							<div class="flex justify-center items-center">
 								<p
-									class="text-3xl md:text-2xl no-underline font-poppins md:font-semibold text-mainColor1"
+									class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl no-underline font-poppins md:font-semibold text-mainColor1 drop-shadow-md"
 								>
 									13650
 								</p>
@@ -135,12 +133,12 @@
 						</div>
 						<div class="flex justify-center items-center my-2">
 							<div
-								class="text-3xl md:text-2xl font-poppins font-bold text-mainColor1 uppercase tracking-wide"
+								class="text-3xl md:text-2xl font-poppins font-bold text-mainColor1 drop-shadow-md uppercase tracking-wide"
 							>
 								25° Cerah
 							</div>
 						</div>
-						<div class="h-full grid grid-rows-4 grid-cols-1 text-mainColor1 my-4">
+						<div class="h-full grid grid-rows-4 grid-cols-1 text-mainColor1 drop-shadow-md my-4">
 							<p class="flex items-center text-2xl md:text-xl">Feels Like 30°</p>
 							<p class="flex items-center text-2xl md:text-xl">Humidity 81%</p>
 							<p class="flex items-center text-2xl md:text-xl">UV 8 (Strong)</p>
@@ -148,44 +146,42 @@
 						</div>
 					</div>
 					<!-- Kurs Info -->
-					<div
-						class="bg-mainColor2 col-span-2 h-full flex rounded-xl shadow-right-bottom px-6 py-4"
-					>
-						<div class=" w-full h-full grid grid-cols-4 grid-rows-2 gap-4">
-							<div class="row-span-2 flex justify-center">
+					<div class="bg-mainColor2 col-span-2 h-full flex rounded-xl shadow-right-bottom py-6">
+						<div class=" w-full h-full grid grid-rows-2 grid-cols-3 gap-4">
+							<div class="flex justify-center items-center">
 								<img src="/asset/asset_main_content/Flag_USA.svg" alt="Logo" class="w-28" />
-							</div>
-							<div class="row-span-2 flex justify-center">
-								<p
-									class="text-3xl md:text-2xl no-underline font-poppins md:font-semibold flex items-center text-mainColor1"
-								>
-									USD
-								</p>
 							</div>
 							<div class=" flex justify-center items-center">
 								<p
-									class="text-3xl md:text-2xl no-underline font-poppins md:font-semibold text-mainColor1"
+									class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl no-underline font-poppins md:font-semibold text-mainColor1 drop-shadow-md"
 								>
 									JUAL
 								</p>
 							</div>
 							<div class="flex justify-center items-center">
 								<p
-									class="text-3xl md:text-2xl no-underline font-poppins md:font-semibold text-mainColor1"
+									class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl no-underline font-poppins md:font-semibold text-mainColor1 drop-shadow-md"
 								>
 									BELI
 								</p>
 							</div>
+							<div class="flex justify-center">
+								<p
+									class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl no-underline font-poppins md:font-semibold flex items-center text-mainColor1 drop-shadow-md"
+								>
+									USD
+								</p>
+							</div>
 							<div class="flex justify-center items-center">
 								<p
-									class="text-3xl md:text-2xl no-underline font-poppins md:font-semibold text-mainColor1"
+									class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl no-underline font-poppins md:font-semibold text-mainColor1 drop-shadow-md"
 								>
 									13750
 								</p>
 							</div>
 							<div class="flex justify-center items-center">
 								<p
-									class="text-3xl md:text-2xl no-underline font-poppins md:font-semibold text-mainColor1"
+									class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl no-underline font-poppins md:font-semibold text-mainColor1 drop-shadow-md"
 								>
 									13650
 								</p>
