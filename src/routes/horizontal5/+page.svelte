@@ -1,5 +1,5 @@
 <script>
-	import { time, date } from '../../addons/DateAndTime.svelte';
+	import { time, date } from '../../functions/DateAndTime.svelte';
 </script>
 
 <div class="flex flex-col h-screen overflow-x-hidden">
