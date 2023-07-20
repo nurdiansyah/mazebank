@@ -17,6 +17,7 @@
 		"@sveltejs/kit": "^1.22.1",
 		"@tailwindcss/aspect-ratio": "^0.4.2",
 		"autoprefixer": "^10.4.14",
+		"depcheck": "^1.4.3",
 		"eslint": "^8.28.0",
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-plugin-svelte": "^2.26.0",
@@ -31,8 +32,11 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@floating-ui/dom": "^1.4.5",
 		"flag-icons": "^6.7.0",
 		"flowbite": "^1.7.0",
+		"flowbite-svelte": "^0.39.3",
+		"tailwind-merge": "^1.14.0",
 		"tw-elements": "^1.0.0-beta2"
 	}
 }

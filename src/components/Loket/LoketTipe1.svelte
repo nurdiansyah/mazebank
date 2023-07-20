@@ -9,7 +9,7 @@
 			<p
 				class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-4xl font-poppins font-bold text-mainColor1 drop-shadow-md uppercase tracking-wide"
 			>
-				LOKET {nomorLoket}
+				Loket {nomorLoket}
 			</p>
 			<p
 				class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl font-poppins font-regular text-mainColor1 drop-shadow-md uppercase tracking-wide"
