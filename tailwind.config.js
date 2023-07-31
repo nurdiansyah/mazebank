@@ -1,14 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 export default {
 	content: [
-		'./src/**/*.{html,css,js,svelte,ts}'
+		'./src/**/*.{html,css,js,svelte,ts}',
+		'./node_modules/flowbite/**/*.{html,js,svelte,ts}'
 	],
 	theme: {
 		colors: {
 			transparent: 'transparent',
 			current: 'currentColor',
 
-			// Digisin Color Palette
+			// Display Color Palette
 			mainColor1: '#FFFFFF',
 			mainColor2: '#FF7823',
 			mainColor3: '#005AAF',
@@ -34,4 +35,5 @@ export default {
 			}
 		}
 	},
+	plugins: [require('flowbite/plugin')]
 };

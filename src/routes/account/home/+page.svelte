@@ -7,26 +7,26 @@
 
 <!-- Hero -->
 <div class="w-full h-full flex flex-col lg:flex-row">
-	<div class="w-full lg:w-2/3 flex items-center justify-center p-8 bg-white dark:bg-gray-800">
+	<div class="w-full lg:w-2/3 flex items-center justify-center px-0 py-8">
 		<div class="item-body px-4 my-auto">
 			<h1
-				class="text-mainColor2 max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl"
+				class="text-mainColor2 font-poppins font-bold text-4xl max-w-2xl md:text-5xl xl:text-6xl tracking-tight leading-none mb-4"
 			>
 				Introduce Your Product Quickly & Effectively
 			</h1>
-			<p class="text-black max-w-2xl mb-6 font-light lg:mb-8 md:text-lg lg:text-xl">
+			<p class="text-black font-light max-w-2xl md:text-lg lg:mb-8 lg:text-xl mb-6">
 				Don't miss out on the chance to make a lasting impact. Build your digital signage strategy
 				today and let your message shine bright, capturing the attention of everyone who passes by.
 			</p>
 			<a
-				href="/account/home"
-				class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-[2px] bg-mainColor2 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
+				href="/account/displays"
+				class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-mainColor1 rounded-[2px] bg-mainColor2 focus:ring-4 focus:ring-primary-300"
 			>
 				Try Now
 			</a>
 			<a
 				href="/account/home"
-				class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-black border border-black rounded-[2px] hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+				class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-black border border-black rounded-[2px] hover:bg-gray-100 focus:ring-4 focus:ring-gray-100"
 			>
 				Read The Docs
 			</a>
@@ -44,8 +44,12 @@
 <!-- Section 1 -->
 <div class="container mx-auto px-4 py-8 sm:px-6 md:px-8">
 	<div>
-		<h1 class="text-4xl font-bold mb-4">Features</h1>
-		<p class="text-xl text-gray-600">
+		<h1
+			class="text-mainColor2 font-bold text-4xl max-w-2xl md:text-5xl xl:text-6xl tracking-tight leading-none mb-4"
+		>
+			Features
+		</h1>
+		<p class="text-black font-light text-xl">
 			Our app Digisin comes equipped with a range of exciting features that enhance your digital
 			experience.
 		</p>
@@ -92,18 +96,22 @@
 </div>
 
 <!-- Section 2 -->
-<div class="container mx-auto px-4 py-8 sm:px-6 md:px-8 flex">
-	<div class="w-1/3 pr-2">
-		<h1 class="text-4xl font-bold mb-4">Our Digisin</h1>
-		<p class="text-xl text-gray-600">
+<div class="container mx-auto px-4 py-8 sm:px-6 md:px-8 flex flex-col sm:flex-row">
+	<div class="w-full sm:w-1/3 pr-2 mb-4 sm:mb-0">
+		<h1
+			class="text-mainColor2 font-bold text-4xl max-w-2xl md:text-5xl xl:text-6xl tracking-tight leading-none mb-4"
+		>
+			Our Digisin
+		</h1>
+		<p class="text-black font-light text-xl">
 			Our app Digisin comes equipped with a range of exciting features that enhance your digital
 			experience.
 		</p>
 	</div>
-	<div class="w-2/3">
-		<div class="bg-mainColor2 rounded-[10px] shadow-md">
+	<div class="w-full sm:w-2/3">
+		<div class="bg-mainColor2 rounded-lg shadow-md">
 			<img
-				class="w-full h-96 object-cover rounded-[10px]"
+				class="w-full h-64 sm:h-96 object-cover rounded-lg"
 				src="http://via.placeholder.com/1366x1080"
 				alt="adv"
 			/>
