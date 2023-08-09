@@ -6,6 +6,7 @@
 <!-- Digisin Navbar -->
 <Navbar />
 
+<!-- svelte-ignore a11y-invalid-attribute -->
 <div class="container mx-auto px-4 py-8 sm:px-6 md:px-8">
 	<!-- Digisin Search -->
 	<div>

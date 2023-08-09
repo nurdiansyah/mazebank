@@ -1,9 +1,9 @@
 <section class="bg-gray-50 dark:bg-gray-900">
 	<div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
-		<a href="#" class="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white">
+		<a href="/account/login" class="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white">
 			<img
 				class="w-8 h-8 mr-2"
-				src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/logo.svg"
+				src="/asset/asset_header/Logo_Maze-Bank.png"
 				alt="logo"
 			/>
 			Digisin
@@ -61,7 +61,7 @@
 							</div>
 						</div>
 						<a
-							href="#"
+							href="/account/login"
 							class="text-sm font-medium text-mainColor2 hover:underline dark:text-mainColor2"
 							>Forgot password?</a
 						>
@@ -73,7 +73,7 @@
 					>
 					<p class="text-sm font-light text-gray-500 dark:text-gray-400">
 						Don’t have an account yet? <a
-							href="#"
+							href="/account/register"
 							class="font-medium text-mainColor2 hover:underline dark:text-mainColor2">Sign up</a
 						>
 					</p>
