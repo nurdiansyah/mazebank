@@ -1,7 +1,7 @@
 <footer class="container mx-auto px-4 py-8 sm:px-6 md:px-8">
 	<div class="md:flex md:justify-between">
 		<div class="mb-6 mr-2 md:mb-0">
-			<a href="/account/home" target="_blank" class="flex items-center mb-4">
+			<a href="/account/home" class="flex items-center mb-4">
 				<img src="/asset/asset_header/Logo_Maze-Bank.png" class="mr-4 h-10" alt="FlowBite Logo" />
 				<span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"
 					>DIGISIN</span
@@ -21,30 +21,26 @@
 					<li class="mb-4">
 						<a
 							href="/account/home"
-							target="_blank"
 							class="text-gray-600 hover:underline dark:text-gray-400">Home</a
 						>
 					</li>
 					<li class="mb-4">
 						<a
-							href="/account/home"
-							target="_blank"
+							href="/account/displays"
 							rel="nofollow"
 							class="text-gray-600 hover:underline dark:text-gray-400">Displays</a
 						>
 					</li>
 					<li class="mb-4">
 						<a
-							href="/account/home"
-							target="_blank"
+							href="/account/storage"
 							rel="nofollow"
 							class="text-gray-600 hover:underline dark:text-gray-400">Storage</a
 						>
 					</li>
 					<li class="mb-4">
 						<a
-							href="/account/home"
-							target="_blank"
+							href="/account/contacts"
 							rel="nofollow"
 							class="text-gray-600 hover:underline dark:text-gray-400">Contacts</a
 						>
@@ -57,14 +53,12 @@
 					<li class="mb-4">
 						<a
 							href="/account/home"
-							target="_blank"
 							class="text-gray-600 hover:underline dark:text-gray-400">Privacy Policy</a
 						>
 					</li>
 					<li>
 						<a
 							href="/account/home"
-							target="_blank"
 							class="text-gray-600 hover:underline dark:text-gray-400">Terms &amp; Conditions</a
 						>
 					</li>
@@ -78,7 +72,6 @@
 					<li class="mb-4">
 						<a
 							href="/account/home"
-							target="_blank"
 							class="text-gray-600 hover:underline dark:text-gray-400"
 							>12 Mark okoye close, Asokoro, Abuja, Nigeria.</a
 						>
@@ -86,24 +79,21 @@
 					<li class="mb-4">
 						<a
 							href="/account/home"
-							target="_blank"
 							class="text-gray-600 hover:underline dark:text-gray-400">+234-815-3679-267</a
 						>
 					</li>
 					<li class="mb-4">
 						<a
 							href="/account/home"
-							target="_blank"
 							class="text-gray-600 hover:underline dark:text-gray-400">+44-115-3679-267</a
 						>
 					</li>
 					<li class="mb-4">
 						<a
 							href="/account/home"
-							target="_blank"
 							class="text-gray-600 hover:underline dark:text-gray-400"
 						>
-							digitalSignage@gmail.com</a
+						digisin@gmail.com</a
 						>
 					</li>
 				</ul>
@@ -113,7 +103,7 @@
 	<hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
 	<div class="sm:flex sm:items-center sm:justify-between">
 		<span class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
-			>© 2023 <a href="/account/home" target="_blank" class="hover:underline">Digisin™</a>. All
+			>© 2023 <a href="/account/home" class="hover:underline">Digisin™</a>. All
 			Rights Reserved.
 		</span>
 		<div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">

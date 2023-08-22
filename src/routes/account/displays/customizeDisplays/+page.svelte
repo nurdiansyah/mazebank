@@ -21,7 +21,7 @@
 		<h1
 			class="text-mainColor2 font-bold text-4xl max-w-2xl md:text-5xl xl:text-6xl tracking-tight leading-none mb-4"
 		>
-			Add Display
+			Customize Display
 		</h1>
 		<p class="text-black font-light text-xl">Create your display here</p>
 	</div>
@@ -137,7 +137,7 @@
 			{/each}
 		</div>
 
-		<!-- Add Display Action Control -->
+		<!-- Customize Display Action Control -->
 		<div class="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-2">
 			<button
 				class="w-full sm:w-auto bg-mainColor1 text-black text-center border border-mainColor2 py-2 px-4 rounded hover:bg-mainColor2"
@@ -154,7 +154,7 @@
 			<button
 				type="submit"
 				class="w-full sm:w-auto bg-mainColor1 text-black text-center border border-mainColor2 py-2 px-4 rounded hover:bg-mainColor2"
-				>Create</button
+				>Update</button
 			>
 		</div>
 	</form>

@@ -2,7 +2,7 @@
 export default {
 	content: [
 		'./src/**/*.{html,css,js,svelte,ts}',
-		'./node_modules/flowbite/**/*.{html,js,svelte,ts}'
+		'./node_modules/flowbite/**/*.{html,css,js,svelte,ts}'
 	],
 	theme: {
 		colors: {

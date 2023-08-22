@@ -66,7 +66,7 @@
 							<a href="/account/storage" class="block px-4 py-2 hover:bg-gray-100">Storage</a>
 						</li>
 						<li>
-							<a href="/account/contact" class="block px-4 py-2 hover:bg-gray-100">Contact</a>
+							<a href="/account/contacts" class="block px-4 py-2 hover:bg-gray-100">Contacts</a>
 						</li>
 					</ul>
 					<div class="py-2">

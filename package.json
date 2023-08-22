@@ -3,7 +3,7 @@
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
-		"dev": "vite dev",
+		"dev": "vite --host",
 		"build": "vite build",
 		"preview": "vite preview",
 		"test": "playwright test",
@@ -33,9 +33,15 @@
 	"type": "module",
 	"dependencies": {
 		"@floating-ui/dom": "^1.4.5",
+		"aws-sdk": "^2.1436.0",
+		"bcrypt": "^5.1.0",
 		"flag-icons": "^6.7.0",
 		"flowbite": "^1.8.0",
 		"minio": "^7.1.1",
+		"mock-aws-s3": "^4.0.2",
+		"mongodb": "^5.7.0",
+		"nock": "^13.3.2",
+		"svelte-store": "^0.0.2",
 		"tailwind-merge": "^1.14.0"
 	}
 }

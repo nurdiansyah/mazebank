@@ -1,11 +1,14 @@
 <script>
 	import Navbar from '../../../components/Navbar.svelte';
 	import Footer from '../../../components/Footer.svelte';
+
+	import DisplaysList from '../../../components/DisplaysList.svelte';
 </script>
 
 <!-- Digisin Navbar -->
 <Navbar />
 
+<!-- Digisin Displays -->
 <!-- svelte-ignore a11y-invalid-attribute -->
 <div class="container mx-auto px-4 py-8 sm:px-6 md:px-8">
 	<!-- Digisin Search -->
@@ -80,11 +83,11 @@
 	</div>
 
 	<!-- Digisin Add Link Action -->
-	<div class="flex justify-end pt-2 pb-8">
-		<div class="flex-initial">
+	<div class="flex flex-col lg:flex-row justify-end pt-2 pb-8">
+		<div class="flex-initial mb-2 lg:mb-0">
 			<a
 				href="/account/displays/addDisplays"
-				class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-mainColor1 rounded-[2px] bg-mainColor2 focus:ring-4 focus:ring-primary-300"
+				class="w-full lg:w-auto inline-flex items-center justify-center px-5 py-3 mr-0 lg:mr-3 text-base font-medium text-center text-mainColor1 rounded-[2px] bg-mainColor2 focus:ring-4 focus:ring-primary-300"
 			>
 				Add Display
 			</a>
@@ -92,7 +95,7 @@
 		<div class="flex-initial">
 			<a
 				href="/account/displays"
-				class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-mainColor1 rounded-[2px] bg-red-600 focus:ring-4 focus:ring-primary-300"
+				class="w-full lg:w-auto inline-flex items-center justify-center px-5 py-3 mr-0 lg:mr-3 text-base font-medium text-center text-mainColor1 rounded-[2px] bg-red-600 focus:ring-4 focus:ring-primary-300"
 			>
 				Reset Search
 			</a>
@@ -101,8 +104,8 @@
 
 	<!-- Digisin List -->
 	<div class="relative overflow-x-auto shadow-md sm:rounded-lg">
-		<table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-			<thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+		<table class="w-full text-sm text-left text-gray-500">
+			<thead class="text-xs text-gray-700 uppercase bg-gray-50">
 				<tr>
 					<th scope="col" class="px-6 py-3"> ID </th>
 					<th scope="col" class="px-6 py-3"> Name </th>
@@ -113,212 +116,161 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr
-					class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"
-				>
-					<td class="px-6 py-4"> 1 </td>
-					<td class="px-6 py-4"> Maze Bank TV 1 </td>
-					<td class="px-6 py-4"> http://127.0.0.1:5173/mazeBankTv1 </td>
-					<td class="px-6 py-4"> September 9, 2013 </td>
-					<td class="px-6 py-4"> Active </td>
-					<td class="px-6 py-4">
-						<a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a
-						>
-					</td>
-				</tr>
-				<tr
-					class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"
-				>
-					<td class="px-6 py-4"> 2 </td>
-					<td class="px-6 py-4"> Maze Bank TV 2 </td>
-					<td class="px-6 py-4"> http://127.0.0.1:5173/mazeBankTv2 </td>
-					<td class="px-6 py-4"> August 2, 2013 </td>
-					<td class="px-6 py-4"> Active </td>
-					<td class="px-6 py-4">
-						<a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a
-						>
-					</td>
-				</tr>
-				<tr
-					class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"
-				>
-					<td class="px-6 py-4"> 3 </td>
-					<td class="px-6 py-4"> Maze Bank TV 3 </td>
-					<td class="px-6 py-4"> http://127.0.0.1:5173/mazeBankTv3 </td>
-					<td class="px-6 py-4"> September 24, 2017 </td>
-					<td class="px-6 py-4"> Active </td>
-					<td class="px-6 py-4">
-						<a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a
-						>
-					</td>
-				</tr>
-				<tr
-					class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"
-				>
-					<td class="px-6 py-4"> 4 </td>
-					<td class="px-6 py-4"> Maze Bank TV 4 </td>
-					<td class="px-6 py-4"> http://127.0.0.1:5173/mazeBankTv4 </td>
-					<td class="px-6 py-4"> December 29, 2012 </td>
-					<td class="px-6 py-4"> Active </td>
-					<td class="px-6 py-4">
-						<a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a
-						>
-					</td>
-				</tr>
-				<tr
-					class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"
-				>
-					<td class="px-6 py-4"> 1 </td>
-					<td class="px-6 py-4"> Maze Bank TV 1 </td>
-					<td class="px-6 py-4"> http://127.0.0.1:5173/mazeBankTv1 </td>
-					<td class="px-6 py-4"> September 9, 2013 </td>
-					<td class="px-6 py-4"> Active </td>
-					<td class="px-6 py-4">
-						<a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a
-						>
-					</td>
-				</tr>
-				<tr
-					class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"
-				>
-					<td class="px-6 py-4"> 2 </td>
-					<td class="px-6 py-4"> Maze Bank TV 2 </td>
-					<td class="px-6 py-4"> http://127.0.0.1:5173/mazeBankTv2 </td>
-					<td class="px-6 py-4"> August 2, 2013 </td>
-					<td class="px-6 py-4"> Active </td>
-					<td class="px-6 py-4">
-						<a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a
-						>
-					</td>
-				</tr>
-				<tr
-					class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"
-				>
-					<td class="px-6 py-4"> 3 </td>
-					<td class="px-6 py-4"> Maze Bank TV 3 </td>
-					<td class="px-6 py-4"> http://127.0.0.1:5173/mazeBankTv3 </td>
-					<td class="px-6 py-4"> September 24, 2017 </td>
-					<td class="px-6 py-4"> Active </td>
-					<td class="px-6 py-4">
-						<a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a
-						>
-					</td>
-				</tr>
-				<tr
-					class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"
-				>
-					<td class="px-6 py-4"> 4 </td>
-					<td class="px-6 py-4"> Maze Bank TV 4 </td>
-					<td class="px-6 py-4"> http://127.0.0.1:5173/mazeBankTv4 </td>
-					<td class="px-6 py-4"> December 29, 2012 </td>
-					<td class="px-6 py-4"> Active </td>
-					<td class="px-6 py-4">
-						<a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a
-						>
-					</td>
-				</tr>
-				<tr
-					class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"
-				>
-					<td class="px-6 py-4"> 1 </td>
-					<td class="px-6 py-4"> Maze Bank TV 1 </td>
-					<td class="px-6 py-4"> http://127.0.0.1:5173/mazeBankTv1 </td>
-					<td class="px-6 py-4"> September 9, 2013 </td>
-					<td class="px-6 py-4"> Active </td>
-					<td class="px-6 py-4">
-						<a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a
-						>
-					</td>
-				</tr>
-				<tr
-					class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"
-				>
-					<td class="px-6 py-4"> 2 </td>
-					<td class="px-6 py-4"> Maze Bank TV 2 </td>
-					<td class="px-6 py-4"> http://127.0.0.1:5173/mazeBankTv2 </td>
-					<td class="px-6 py-4"> August 2, 2013 </td>
-					<td class="px-6 py-4"> Active </td>
-					<td class="px-6 py-4">
-						<a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a
-						>
-					</td>
-				</tr>
-				<tr
-					class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"
-				>
-					<td class="px-6 py-4"> 3 </td>
-					<td class="px-6 py-4"> Maze Bank TV 3 </td>
-					<td class="px-6 py-4"> http://127.0.0.1:5173/mazeBankTv3 </td>
-					<td class="px-6 py-4"> September 24, 2017 </td>
-					<td class="px-6 py-4"> Active </td>
-					<td class="px-6 py-4">
-						<a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a
-						>
-					</td>
-				</tr>
-				<tr
-					class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"
-				>
-					<td class="px-6 py-4"> 4 </td>
-					<td class="px-6 py-4"> Maze Bank TV 4 </td>
-					<td class="px-6 py-4"> http://127.0.0.1:5173/mazeBankTv4 </td>
-					<td class="px-6 py-4"> December 29, 2012 </td>
-					<td class="px-6 py-4"> Active </td>
-					<td class="px-6 py-4">
-						<a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a
-						>
-					</td>
-				</tr>
+				<DisplaysList
+					idDisplays="0"
+					namaDisplays="Maze Bank TV 0"
+					linkDisplays="http://127.0.0.1:5173/mazeBankTv0"
+					createAtDisplays="September 9, 1945"
+					statusDisplays="Active"
+				/>
+				<DisplaysList
+					idDisplays="1"
+					namaDisplays="Maze Bank TV 1"
+					linkDisplays="http://127.0.0.1:5173/mazeBankTv1"
+					createAtDisplays="September 9, 2013"
+					statusDisplays="Active"
+				/>
+				<DisplaysList
+					idDisplays="2"
+					namaDisplays="Maze Bank TV 2"
+					linkDisplays="http://127.0.0.1:5173/mazeBankTv2"
+					createAtDisplays="August 2, 2013"
+					statusDisplays="Active"
+				/>
+				<DisplaysList
+					idDisplays="3"
+					namaDisplays="Maze Bank TV 3"
+					linkDisplays="http://127.0.0.1:5173/mazeBankTv3"
+					createAtDisplays="September 24, 2017"
+					statusDisplays="Active"
+				/>
+				<DisplaysList
+					idDisplays="4"
+					namaDisplays="Maze Bank TV 4"
+					linkDisplays="http://127.0.0.1:5173/mazeBankTv4"
+					createAtDisplays="December 29, 2012"
+					statusDisplays="Active"
+				/>
+				<DisplaysList
+					idDisplays="5"
+					namaDisplays="Maze Bank TV 5"
+					linkDisplays="http://127.0.0.1:5173/mazeBankTv5"
+					createAtDisplays="September 9, 1945"
+					statusDisplays="Active"
+				/>
+				<DisplaysList
+					idDisplays="6"
+					namaDisplays="Maze Bank TV 6"
+					linkDisplays="http://127.0.0.1:5173/mazeBankTv6"
+					createAtDisplays="September 9, 2013"
+					statusDisplays="Active"
+				/>
+				<DisplaysList
+					idDisplays="7"
+					namaDisplays="Maze Bank TV 7"
+					linkDisplays="http://127.0.0.1:5173/mazeBankTv7"
+					createAtDisplays="August 2, 2013"
+					statusDisplays="Active"
+				/>
+				<DisplaysList
+					idDisplays="8"
+					namaDisplays="Maze Bank TV 8"
+					linkDisplays="http://127.0.0.1:5173/mazeBankTv8"
+					createAtDisplays="September 24, 2017"
+					statusDisplays="Active"
+				/>
+				<DisplaysList
+					idDisplays="9"
+					namaDisplays="Maze Bank TV 9"
+					linkDisplays="http://127.0.0.1:5173/mazeBankTv9"
+					createAtDisplays="December 29, 2012"
+					statusDisplays="Active"
+				/>
+				<DisplaysList
+					idDisplays="10"
+					namaDisplays="Maze Bank TV 10"
+					linkDisplays="http://127.0.0.1:5173/mazeBankTv10"
+					createAtDisplays="September 9, 1945"
+					statusDisplays="Active"
+				/>
+				<DisplaysList
+					idDisplays="11"
+					namaDisplays="Maze Bank TV 11"
+					linkDisplays="http://127.0.0.1:5173/mazeBankTv11"
+					createAtDisplays="September 9, 2013"
+					statusDisplays="Active"
+				/>
+				<DisplaysList
+					idDisplays="12"
+					namaDisplays="Maze Bank TV 12"
+					linkDisplays="http://127.0.0.1:5173/mazeBankTv12"
+					createAtDisplays="August 2, 2013"
+					statusDisplays="Active"
+				/>
+				<DisplaysList
+					idDisplays="13"
+					namaDisplays="Maze Bank TV 13"
+					linkDisplays="http://127.0.0.1:5173/mazeBankTv13"
+					createAtDisplays="September 24, 2017"
+					statusDisplays="Active"
+				/>
+				<DisplaysList
+					idDisplays="14"
+					namaDisplays="Maze Bank TV 14"
+					linkDisplays="http://127.0.0.1:5173/mazeBankTv14"
+					createAtDisplays="December 29, 2012"
+					statusDisplays="Active"
+				/>
 			</tbody>
 		</table>
 
 		<!-- Digisin List Pagination -->
 		<nav class="flex items-center justify-between p-4" aria-label="Table navigation">
-			<span class="text-sm font-normal text-gray-500 dark:text-gray-400"
-				>Showing <span class="font-semibold text-gray-900 dark:text-white">1-10</span> of
-				<span class="font-semibold text-gray-900 dark:text-white">1000</span></span
+			<span class="text-sm font-normal text-gray-500"
+				>Showing <span class="font-semibold text-gray-900">1-10</span> of
+				<span class="font-semibold text-gray-900">1000</span></span
 			>
 			<ul class="inline-flex -space-x-px text-sm h-8">
 				<li>
 					<a
 						href="#"
 						aria-current="page"
-						class="flex items-center justify-center px-3 h-8 text-blue-600 border border-gray-300 bg-blue-50 hover:bg-blue-100 hover:text-blue-700 dark:border-gray-700 dark:bg-gray-700 dark:text-white"
+						class="flex items-center justify-center px-3 h-8 text-blue-600 border border-gray-300 bg-blue-50 hover:bg-blue-100 hover:text-blue-700"
 						>1
 					</a>
 				</li>
 				<li>
 					<a
 						href="#"
-						class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+						class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700"
 						>2
 					</a>
 				</li>
 				<li>
 					<a
 						href="#"
-						class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+						class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700"
 						>3
 					</a>
 				</li>
 				<li>
 					<a
 						href="#"
-						class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+						class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700"
 						>4
 					</a>
 				</li>
 				<li>
 					<a
 						href="#"
-						class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+						class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700"
 						>5
 					</a>
 				</li>
 				<li>
 					<a
 						href="#"
-						class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 rounded-r-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+						class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 rounded-r-lg hover:bg-gray-100 hover:text-gray-700"
 						>Next
 					</a>
 				</li>
@@ -326,3 +278,6 @@
 		</nav>
 	</div>
 </div>
+
+<!-- Digisin Footer -->
+<Footer />
