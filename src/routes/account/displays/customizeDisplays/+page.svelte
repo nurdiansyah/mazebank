@@ -1,6 +1,10 @@
 <script>
 	import Navbar from '../../../../components/Navbar.svelte';
 
+	function deleteDisplays(){
+		
+	}
+
 	let forms = [{}];
 
 	function addForm() {
@@ -78,6 +82,7 @@
 				/>
 				<p class="mt-2 text-sm text-black">Status of your digital signage display</p>
 			</div>
+
 			<div>
 				<label for="company" class="block mb-2 text-sm font-medium text-gray-900"
 					>Select Template</label
@@ -138,7 +143,13 @@
 		</div>
 
 		<!-- Customize Display Action Control -->
-		<div class="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-2">
+		<div class="flex flex-col justify-end sm:flex-row space-y-2 sm:space-y-0 sm:space-x-2">
+			<button
+				class="w-full sm:w-auto bg-mainColor1 text-black text-center border border-mainColor2 py-2 px-4 rounded hover:bg-red-600"
+				on:click={deleteDisplays}
+				>Delete Dispays
+			</button>
+
 			<button
 				class="w-full sm:w-auto bg-mainColor1 text-black text-center border border-mainColor2 py-2 px-4 rounded hover:bg-mainColor2"
 				on:click={addForm}

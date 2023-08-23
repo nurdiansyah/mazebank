@@ -138,7 +138,7 @@
 		</div>
 
 		<!-- Add Display Action Control -->
-		<div class="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-2">
+		<div class="flex flex-col justify-end sm:flex-row space-y-2 sm:space-y-0 sm:space-x-2">
 			<button
 				class="w-full sm:w-auto bg-mainColor1 text-black text-center border border-mainColor2 py-2 px-4 rounded hover:bg-mainColor2"
 				on:click={addForm}
