@@ -1,5 +1,6 @@
 <script>
 	import Navbar from '../../../../components/Navbar.svelte';
+	import Footer from '../../../../components/Footer.svelte';
 
 	let forms = [{}];
 
@@ -116,7 +117,7 @@
 		<!-- Digisin Queue Video -->
 		<div>
 			<p
-				class="text-mainColor2 font-bold text-2xl md:text-2xl xl:text-4xl tracking-tight leading-none mb-4"
+				class="text-mainColor2 font-bold text-2xl md:text-2xl xl:text-4xl tracking-tight leading-none my-4"
 			>
 				Media
 			</p>
@@ -159,3 +160,6 @@
 		</div>
 	</form>
 </div>
+
+<!-- Digisin Footer -->
+<Footer />

@@ -65,7 +65,7 @@
 				/>
 
 				<!-- Card Content -->
-				<p class="text-2xl font-inter font-bold text-mainColor1 text-center p-6">Simple</p>
+				<p class="text-2xl font-inter font-bold text-mainColor1 text-center p-6">Feature 1</p>
 			</div>
 		</div>
 		<div>
@@ -77,7 +77,7 @@
 				/>
 
 				<!-- Card Content -->
-				<p class="text-2xl font-inter font-bold text-mainColor1 text-center p-6">Fast</p>
+				<p class="text-2xl font-inter font-bold text-mainColor1 text-center p-6">Feature 2</p>
 			</div>
 		</div>
 		<div>
@@ -89,7 +89,7 @@
 				/>
 
 				<!-- Card Content -->
-				<p class="text-2xl font-inter font-bold text-mainColor1 text-center p-6">Easy To Use</p>
+				<p class="text-2xl font-inter font-bold text-mainColor1 text-center p-6">Feature 3</p>
 			</div>
 		</div>
 	</div>
