@@ -73,27 +73,21 @@
 						<a
 							href="/account/home"
 							class="text-gray-600 hover:underline dark:text-gray-400"
-							>12 Mark okoye close, Asokoro, Abuja, Nigeria.</a
 						>
-					</li>
-					<li class="mb-4">
-						<a
-							href="/account/home"
-							class="text-gray-600 hover:underline dark:text-gray-400">+234-815-3679-267</a
-						>
-					</li>
-					<li class="mb-4">
-						<a
-							href="/account/home"
-							class="text-gray-600 hover:underline dark:text-gray-400">+44-115-3679-267</a
+						digisincontacts@gmail.com</a
 						>
 					</li>
 					<li class="mb-4">
 						<a
 							href="/account/home"
 							class="text-gray-600 hover:underline dark:text-gray-400"
+							>...</a
 						>
-						digisin@gmail.com</a
+					</li>
+					<li class="mb-4">
+						<a
+							href="/account/home"
+							class="text-gray-600 hover:underline dark:text-gray-400">...</a
 						>
 					</li>
 				</ul>

@@ -22,7 +22,7 @@
 			</div>
 			<form action="#" class="mt-4">
 				<div class="mb-4">
-					<label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
+					<label for="message" class="block mb-2 text-sm font-medium text-gray-900">
 						Message
 					</label>
 					<textarea
@@ -35,7 +35,7 @@
 				</div>
 				<button
 					type="submit"
-					class="w-full text-white bg-mainColor2 hover:bg-mainColor2 focus:ring-4 focus:outline-none focus:ring-mainColor2 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-mainColor2 dark:hover:bg-mainColor2 dark:focus:ring-mainColor2"
+					class="w-full text-white bg-mainColor2 hover:bg-mainColor2 focus:ring-4 focus:outline-none focus:ring-mainColor2 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
 				>
 					Submit
 				</button>
@@ -50,9 +50,9 @@
 				/>
 				<div class="text-center">
 					<h1 class="text-lg sm:text-2xl font-bold mb-2">Digisin</h1>
-					<p class="text-base sm:text-lg text-gray-600">12 Mark okoye close, Asokoro, Abuja, Nigeria.</p>
-					<p class="text-base sm:text-lg text-gray-600">digisin@gmail.com</p>
-					<p class="text-base sm:text-lg text-gray-600">+234-815-3679-267</p>
+					<p class="text-base sm:text-lg text-gray-600">digisincontacts@gmail.com</p>
+					<p class="text-base sm:text-lg text-gray-600">...</p>
+					<p class="text-base sm:text-lg text-gray-600">...</p>
 				</div>
 			</div>
 		</div>
